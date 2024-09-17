@@ -1,0 +1,137 @@
+.card,
+.envelope {
+  background: #fff;
+  box-shadow: -1px 8px 3px 0 rgba(0, 0, 0, 0.6);
+  height: 21em;
+  padding: 2em;
+  position: relative;
+  width: 15em;
+  
+
+}
+
+
+.envelope {
+  background: #cb231c;
+  box-shadow: 0 3px 2px rgba(0, 0, 0, 0.8);
+  margin: -2em -2em;
+  position: absolute;
+  transform: rotate(-8deg);
+  
+  z-index: -1;
+}
+#close{
+  font-size: medium;
+  font-weight: 800;
+  margin-left: 95%;
+  /* margin-bottom: 70%; */
+  text-decoration: none;
+  background-color:#fff;
+  border: none;
+  
+}
+
+/* h1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+  text-transform: uppercase;
+  width: 90%;
+} */
+
+/* em {
+  color: #cc2119;
+  font-style: normal;
+} */
+/* 
+.heart {
+  bottom: 4em;
+  position: absolute;
+  right: 4em;
+}
+
+.heart::before,
+.heart::after {
+  background-color: #cd231b;
+  border-radius: 50px 50px 0 0;
+  content: "";
+  height: 25px;
+  left: 15px;
+  position: absolute;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+  width: 15px;
+}
+
+.heart::after {
+  left: 0;
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
+} */
+
+
+/* general styling */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px; */
+    
+  }
+  
+  label {
+    width: 30%;
+    margin-bottom: 18px;
+    /* margin-left: 2px; */
+    /* text-align: start; */
+    font-weight: 800;
+    /* padding-left: 5px; */
+  }
+  
+
+  input[type="text"], input[type="tel"], input[type="email"], select  {
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+  }
+  .Display{
+
+    
+    margin-left:70%;
+    font-size: 16px;
+    color: #cb231c;
+    background-color: white;
+    font-weight: 700;
+    text-decoration: none;
+    border: 2px solid salmon;
+    cursor: pointer;
+    
+  }
+  /* .Display:hover {
+    background-color: #c8233325;
+}
+.envelope.show {
+    opacity: 1;
+    display: block;
+} */
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  background-color: #eee;
+  display: flex;
+  font: 16px/1.05 "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+}
